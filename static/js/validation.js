@@ -9,10 +9,8 @@ document.addEventListener("DOMContentLoaded", function() {
         if (nombre === "" || email === "" || mensaje === "" || motivo === "" ) {
             alert("Por favor completa todos los campos obligatorios.");
             event.preventDefault();
-        } else {
-            form.submit();
-            //alert("Gracias");
-            window.open("127.0.0.1:5500/index.html", "_self");
-        }
+        } 
+        
+            
     });
 });
